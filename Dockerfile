@@ -34,6 +34,9 @@ RUN apt-get update \
 ENV NBVIEWER_THREADS 2
 EXPOSE 8080
 
+RUN mkdir -p /srv/nbviewer
+RUN chmod -R a+wx /srv/nbviewer
+
 WORKDIR /srv/nbviewer
 
 # asset toolchain
