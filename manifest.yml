@@ -1,0 +1,7 @@
+---
+applications:
+- name: nbviewer
+  memory: 128MB
+  disk_quota: 256MB
+  buildpack: python_buildpack
+  command: python -m nbviewer --port=8080 --debug --no-cache

@@ -1,3 +1,9 @@
+# Jupyter nbviewer with support of Cloud Foundry
+
+Added support to Cloud Foundry. Simple execute `cf push` to push the nbViewer as a Cloud Foundry app. 
+
+See `manifest.yml` for deployment configurations.
+
 # Jupyter Notebook Viewer
 
 Jupyter nbviewer is the web application behind [The Jupyter Notebook Viewer](http://nbviewer.ipython.org), which is graciously hosted by [Rackspace](https://developer.rackspace.com/?nbviewer=awesome).
